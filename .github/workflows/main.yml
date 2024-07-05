@@ -1,0 +1,49 @@
+ngrok http http://localhost:8080
+
+
+Welcome
+ngrok is your app’s front door—a globally distributed reverse proxy that secures, protects and accelerates your applications and network services, no matter where you run them.
+
+Agents
+MacOS
+Windows
+Linux
+Docker
+RaspberryPi
+FreeBSD
+SDKs
+Go
+NodeJS
+Rust
+Python
+Java
+Ruby
+.Net
+Infrastructure
+Kubernetes
+Looking for something else?
+Connect
+Establish ingress for your application
+
+Agent
+Windows
+
+Choose another platform
+Installation
+Download a standalone executable with zero run time dependencies. Don’t know your architecture? 
+Help me find it.
+
+Download for Windows (64-Bit)
+Download for Windows (32-Bit)
+Run the following command to add your authtoken to the default ngrok.yml configuration file.
+
+Copy code
+ngrok config add-authtoken 2iqV4W3uPoPEFHIcQyitSTuPtr1_MV7fhCgiwhHGkm91ePNw
+Deploy your app online
+Put your app online at ephemeral domain Forwarding to your upstream service. For example, if it is listening on port http://localhost:8080, run:
+
+Copy code
+ngrok http http://localhost:8080
+Once running, your endpoints will be listed on the 
+endpoints page
+.
